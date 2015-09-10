@@ -29,7 +29,7 @@
         "test": "grunt test clean"
     },
     "dependencies": {
-        "class-id-minifier": "~0.3.4"
+        "class-id-minifier": "https://github.com/aresn/class-id-minifier.git"
     },
     "devDependencies": {
         "grunt-contrib-clean": "~0.4.0",
