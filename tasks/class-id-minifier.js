@@ -47,7 +47,7 @@ module.exports = function (grunt) {
         });
         return;
       }
-      var transformContent = classIdMinifier.minify(srcContent, classIdMap, options.minifyFilter, options.prefix);
+      var transformContent = classIdMinifier.minify(srcContent, classIdMap, options.reg, options.prefix);
       grunt.file.write(dest, transformContent.html, {
         encoding: encoding
       });
